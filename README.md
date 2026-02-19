@@ -4,12 +4,12 @@ A simple ASP.NET Core Web API for managing support tickets with Excel file integ
 
 ## Features
 
-- ✅ Load tickets from an Excel file (`tickets.xlsx`) on startup
-- ✅ In-memory CRUD operations (no database required)
-- ✅ RESTful API endpoints
-- ✅ Dependency injection pattern
-- ✅ Swagger/OpenAPI documentation
-- ✅ Proper HTTP status codes
+- Load tickets from an Excel file (`tickets.xlsx`) on startup
+- In-memory CRUD operations (no database required)
+- RESTful API endpoints
+- Dependency injection pattern
+- Swagger/OpenAPI documentation
+- Proper HTTP status codes
 
 ## Project Structure
 
@@ -172,3 +172,4 @@ After running the application, navigate to `https://localhost:44300/swagger` to 
 - Add logging framework (Serilog)
 - Add unit tests
 - Add database persistence option
+
